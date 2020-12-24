@@ -17,6 +17,15 @@
       "error",
       4
     ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.tsx",
+          "**/*.spec.tsx"
+        ]
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
